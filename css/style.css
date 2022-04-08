@@ -2,9 +2,8 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  overflow: hidden;
-}
+          box-sizing: border-box;
+  overflow: hidden; }
 
 .blue {
   width: 100%;
@@ -12,7 +11,7 @@
   height: 350px;
   max-height: 100%;
   padding: 20px;
-  font-family: "Rubik Wet Paint", cursive;
+  font-family: 'Rubik Wet Paint', cursive;
   text-transform: uppercase;
   color: red;
   font-weight: 900;
@@ -22,15 +21,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   letter-spacing: 0.02em;
   padding: 20px;
-  background: blue;
-}
+  background: blue; }
 
 .yellow {
   width: 100%;
@@ -38,7 +36,7 @@
   height: 350px;
   max-height: 100%;
   padding: 20px;
-  font-family: "Rubik Wet Paint", cursive;
+  font-family: 'Rubik Wet Paint', cursive;
   text-transform: uppercase;
   color: red;
   font-weight: 900;
@@ -48,12 +46,16 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   letter-spacing: 0.02em;
   padding: 20px;
-  background: yellow;
-}
+  background: #fbff00; }
+
+@media screen and (max-width: 320px) {
+  .blue,
+  .yellow {
+    margin: 5px; } }
