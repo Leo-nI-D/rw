@@ -33,5 +33,12 @@
 .yellow {
     @include size();
     @include text();
-    background: yellow;
+    background: rgb(251, 255, 0);
+}
+
+@media screen and (max-width: 320px) {
+    .blue,
+    .yellow{
+        margin: 5px;
+    }
 }
