@@ -25,6 +25,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  letter-spacing: 0.002px;
+  padding: 2px;
   background: blue; }
 
 .yellow {
@@ -47,4 +49,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  letter-spacing: 0.002px;
+  padding: 2px;
   background: yellow; }
