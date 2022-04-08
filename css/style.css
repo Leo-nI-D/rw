@@ -55,7 +55,7 @@
   padding: 20px;
   background: #fbff00; }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .blue,
   .yellow {
-    margin: 5px; } }
+    font-weight: 700; } }
